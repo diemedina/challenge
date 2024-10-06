@@ -1,0 +1,24 @@
+@import "./_vars.scss";
+
+.home {
+  width: 100%;
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  
+  h1 {
+    margin: 0;
+    font-weight: bolder;
+    color: $blue;
+  }
+
+  span {
+    font-weight: lighter;
+    color: $black-3;
+  }
+
+
+}
